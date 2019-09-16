@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Arvind Krish's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+					<header id="header">
+						<a class="logo">Hi, I'm Arvind! 👋</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+						</ul>
+						<ul class="icons">	
+							<li><a href="https://www.linkedin.com/in/arvindkrish/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/akrish1998" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+								<article class="post featured">
+								<header class="major">
+									<h2><a>About Me!</a></h2>
+									<p style="text-align:left;">I'm a Junior Computer Engineering major at California Polytechnic State University, San Luis Obispo, and my interest is in Embedded Systems.
+									</p> 
+
+									<p style="text-align:left;">
+									Aside from attending school, I enjoy working on personal projects. I am especially fascinated in how we can use both Software and Hardware to create world changing discoveries. I'm graduating March 2021 and I'm currently looking for an Embedded Systems internship that will help grow my passion of becoming a better leader, teammate, and technology enthusiast.
+									</p> 
+
+									<p style="text-align:left;">
+									Below are a few of many projects I've worked on. If you'd want to learn more about my projects or see my resume, feel free to email me.</p> 
+								</header>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a>Laser Targeting System (C)</a></h2>
+									</header>
+									<p>I built a motion-sensor turret that tracks a target’s position using the MSP-EXP432P401R microcontroller. To obtain distance readings and enable the turret arm to move accurately, I interfaced with Ultrasonic/IR sensors and servos using different communication protocols. The most challenging about the project was dealing with invalid input readings from the sensors. In the end, I ended up using thorough Gaussian probability analysis to deal with this issue and this filtering method worked out great!</p>
+									<ul class="actions special">
+										<li><a href="mailto:akrish@calpoly.edu" class="button">Learn More</a></li>
+									</ul>
+									<ul class="actions special">
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a>Huffman Coding (Python, C)</a></h2>
+									</header>
+									<p>By using the relative frequencies of ascii characters in text files, I constructed a tree structure to generate variable length binary strings. The binary strings can then be used in place of the ascii characters to ultimately create compressed files. In the end, I was able to implement this compression and decompression algorithm for text files in both C and Python. This program can compress files by approximately 70%, depending on the file contents (Compresses The Great Gatsby by 74%!). This was also when I first learned how to use Git 😊.</p>
+									<ul class="actions special">
+										<li><a href="mailto:akrish@calpoly.edu" class="button">Learn More</a></li>
+									</ul>
+									<ul class="actions special">
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a>Pipeline Emulator (Java)</a></h2>
+									</header>
+									<p>I wrote a Java MIPS emulator that models the execution of instructions on a MIPS CPU (includes registers, data memory, and program counter) after parsing MIPS input assembly files, a CPU simulator that models the flow of instructions through a 5-stage pipelined processor, and a Correlating Branch Predictor using a Global History Register. I accounted for delays from taken conditional branches, use-after-load conditions, and any unconditional jumps. A bit unrelated, but I also learned how to implement the Bresenham line and circle drawing algorithms through assembly 😲.</p>
+									<ul class="actions special">
+										<li><a href="mailto:akrish@calpoly.edu" class="button">Learn More</a></li>
+									</ul>
+									<ul class="actions special">
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a>Digital Multimeter (C)</a></h2>
+									</header>
+									<p>I utilized a 16-bit ADC to create a multimeter than can measure DC offset, true-RMS, frequency, and peak-to-peak Voltages for various AC and DC inputs. I found that using a comparator circuit made finding the frequency much easier. Taking a continuous rolling average of the inputs worked best for the other values, as it increased the resposiveness of the multimeter when the input signal changes rapidly.I configured the output to read on a terminal with accompanying bar graphs.
+									</p>
+									<ul class="actions special">
+										<li><a href="mailto:akrish@calpoly.edu" class="button">Learn More</a></li>
+									</ul>
+									<ul class="actions special">
+									</ul>
+								</article>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:akrish@calpoly.edu">akrish@calpoly.edu</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/arvindkrish/" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://github.com/akrish1998" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
